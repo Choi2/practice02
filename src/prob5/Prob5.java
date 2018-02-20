@@ -14,7 +14,7 @@ public class Prob5 {
 			int minNumber = 1;
 			int maxNumber = 100;
 
-			// 정답 램덤하게 만들기
+			// 정답 랜덤하게 만들기
 			Random random = new Random();
 			int correctNumber = random.nextInt(maxNumber) + minNumber;
 
@@ -52,7 +52,7 @@ public class Prob5 {
 
 			System.out.print("다시 하시겠습니까?(y/n)>>");
 			String answer = scanner.next();
-			if( "y".equals( answer ) == false ) {
+			if( answer.equals("y") == false ) {
 				break;
 			}
 		}
