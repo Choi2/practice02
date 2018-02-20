@@ -12,7 +12,7 @@ public class Prob2 {
 		System.out.println( "5개의 숫자를 입력하세요." );
 		for( int i = 0; i < intArray.length; i++) {
 			int number = scanner.nextInt();
-			intArray[ i ] = number;
+			intArray[i] = number;
 		} 
 		
 		scanner.close();
